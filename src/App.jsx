@@ -27,27 +27,27 @@ function App() {
 
     setCourses(_courses);
     setCoursesLength(_courses.length);
-    setSelectionLength(_courses.length);
     setFilteredSearch(_courses);
   }, []);
+
+  useEffect(() => {
+    setSelectionLength(filteredSearch.length);
+  }, [filteredSearch]);
 
   function handleSearch(e) {
     setFilteredSearch(
       courses.filter(course => course.title.toLowerCase().includes(event.target.value.toLowerCase()))
     );
-    setSelectionLength(filteredSearch.length);
   }
 
   function handleFilter(e) {
     setFilteredSearch(
       courses.filter(course => course.id.toLowerCase() == e.toLowerCase())
     );
-    setSelectionLength(filteredSearch.length);
   }
 
   function handleReload() {
     setFilteredSearch(courses);
-    setSelectionLength(courses.length);
   }
 
   return (

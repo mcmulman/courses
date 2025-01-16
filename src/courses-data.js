@@ -95,6 +95,55 @@ export const COURSES = [
     ]
   },
   {
+    "id": "u3",
+    "courses": [
+      "Learn Angular 8 & Web API by creating a Full Stack Web App",
+      "Learn React JS and Web API by creating a Full Stack Web App",
+      "Junior to Senior Developer",
+      "iOS12 Bootcamp from Beginner to Professional iOS Developer",
+      "Magento 2.4 für Linux-Admins – Perfekte Server-Installation",
+      "Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
+      "CashTube Masterclass - Wie du mit Youtube Geld verdienst",
+      "Youtube Kanal ohne eigene Videos aufbauen und Geld verdienen",
+      "MAGENTO 2 scratch 2022 The First Step to Open Your ecommerce",
+      "Nuxt.js 2 - Vue.js on Steroids",
+      "Learn Ubuntu in 7 days",
+      "Unix, Linux training for beginners",
+      "Double Your Office Productivity Using Google Apps",
+      "The Complete jQuery Course: Build Real World Projects!",
+      "Build Interactive Apps using VueJS, Vuex and VueRouter",
+      "Linux Fundamentals for IT Professionals using Ubuntu 20x",
+      "C Programming 2019",
+      "Agile Scrum Advanced Software Development+Program Management",
+    ]
+  },
+  {
+    "id": "u4",
+    "courses": [
+      "Zaubertricks Close-up- Zaubern lernen vom Profi!",
+      "Die Online-Zauberschule | Kartentricks lernen vom Profi!",
+    ]
+  },
+  {
+    "id": "u5",
+    "courses": [
+      "CSS Friday: Learn Up-to-Date CSS Styling Techniques (2022)",
+      "Sales Training: Practical Sales Techniques",
+      "Ace the Pitch!",
+    ]
+  },
+  {
+    "id": "u6",
+    "courses": [
+      "Übermenschliche Produktivität - Mehr schaffen - Mehr Energie",
+      "Meisterliche Kommunikation und Rhetorik -Die Charisma-Formel",
+      "Google Analytics 4: Google Analytics Anfänger Guide",
+      "Grundlagen der Kommunikation für Führungskräfte Meisterkurs",
+      "Komplette Kommunikation Masterclass: 100 beste Tipps!",
+      "Die Gewinner-Formel - Erreiche deine Ziele mit NLP",
+    ]
+  },
+  {
     "id": "u7",
     "courses": [
       "Angular - The Complete Guide (2025 Edition)",
