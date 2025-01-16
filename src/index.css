@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+
+  color: #ebe7ef;
+  background: radial-gradient(#015a52, #014742);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  min-height: 80rem;
+}
+
+main {
+  width: 90%;
+  max-width: 50rem;
+  margin: auto;
+}
+
+main h2 {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 0 1.5rem 0;
+  color: #5f8fc1;
+}
+
+ul {
+  list-style: none;
+}
+
+ul > div {
+  padding: 12px;
+  padding-right: 60px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+ul > div .MuiListItemText-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 12px;
+  top: 6px;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  background: green;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#filterForm {
+  display: inline-flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#filterForm button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+  background-color: green;
+  color: #ebe7ef;
+  cursor: pointer;
+}
+
+
+#filterForm .u2,
+ul > div.u2 .MuiListItemText-secondary {
+  background: darkcyan;
+}
+
+#filterForm .u3,
+ul > div.u3 .MuiListItemText-secondary {
+  background: #03d5ff;
+}
+
+#filterForm .u4,
+ul > div.u4 .MuiListItemText-secondary {
+  background: #ff00ff;
+}
+
+#filterForm .u5,
+ul > div.u5 .MuiListItemText-secondary {
+  background: rosybrown;
+}
+
+#filterForm .u6,
+ul > div.u6 .MuiListItemText-secondary {
+  background: #113c32;
+}
+
+#filterForm .u7,
+ul > div.u7 .MuiListItemText-secondary {
+  background: chocolate;
+}
+
+#filterForm .u8,
+ul > div.u8 .MuiListItemText-secondary {
+  background: plum;
+}
+
+section {
+  margin: 2rem auto;
+}
+
+
+.examples.hide-tabs menu {
+  display: none;
+}
+
+.tab-content {
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: #023734;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.tab-content h3 {
+  margin: 0;
+}
+
+.tab-content code {
+  font-size: 1rem;
+}
+
+input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #023734;
+  color: #ebe7ef;
+}
+
+#searchForm {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#searchReset {
+  cursor: pointer;
+  font-size: 2em;
+  padding-inline: 10px;
+}
+
+#toggleMenu {
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Style the hamburger menu */
+#toggleMenu img {
+  margin-right: 12px;
+  max-width: 30px;
+}
+
+#toggleMenu img.hide {
+  display: none;
+}
+
+/* Add a grey background color on mouse-over */
+#toggleMenu:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+/* Style the active link (or home/logo) */
+#toggleMenu.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+@media (min-width: 600px) {
+
+  .examples menu {
+    flex-direction: row;
+  }
+
+  #searchForm {
+    flex-direction: row;
+  }
+
+  #searchDesc {
+    order: 3;
+  }
+}
