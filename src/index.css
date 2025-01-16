@@ -113,6 +113,12 @@ ul > div.u8 .MuiListItemText-secondary {
   background: plum;
 }
 
+#tagFilterForm {
+  display: inline-flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
 section {
   margin: 2rem auto;
 }

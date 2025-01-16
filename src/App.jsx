@@ -9,25 +9,38 @@ function App() {
   const [filteredSearch, setFilteredSearch] = useState([]);
   const [coursesLength, setCoursesLength] = useState(0);
   const [selectionLength, setSelectionLength] = useState(0);
+  const [tags, setTags] = useState([]);
 
   useEffect(() => {
     let _courses = [];
+    let _tags = [];
 
     COURSES.forEach(courseById => {
       courseById.courses.forEach(course => {
         _courses.push({
           id: courseById.id,
-          title: course
+          ...course
         })
       })
     });
     // Sorting courses alphabetically
     _courses = _courses.sort((a, b) => a.title.localeCompare(b.title));
-    console.log(_courses);
+
+    // Extracting unique tags
+    _courses.forEach(course => {
+      course.tags.forEach(tag => {
+        if (!_tags.includes(tag)) {
+          _tags.push(tag);
+        }
+      })
+    });
+
+    console.log(_courses, _tags);
 
     setCourses(_courses);
     setCoursesLength(_courses.length);
     setFilteredSearch(_courses);
+    setTags(_tags);
   }, []);
 
   useEffect(() => {
@@ -40,9 +53,17 @@ function App() {
     );
   }
 
-  function handleFilter(e) {
+  function handleFilter(type) {
     setFilteredSearch(
-      courses.filter(course => course.id.toLowerCase() == e.toLowerCase())
+      courses.filter(course => course.id.toLowerCase() == type.toLowerCase())
+    );
+  }
+
+  function handleTagFilter(tag) {
+    setFilteredSearch(
+      courses.filter(
+        course => course.tags.includes(tag)
+      )
     );
   }
 
@@ -66,6 +87,11 @@ function App() {
           <div id="filterForm" style={{marginTop: '20px'}}>
             {COURSES.map((course, index) => (
               <button key={index} onClick={() => handleFilter(course.id)} className={course.id}>{course.id}</button>
+            ))}
+          </div>
+          <div id="tagFilterForm" style={{marginTop: '20px'}}>
+            {tags.map((tag, index) => (
+              <button key={index} onClick={() => handleTagFilter(tag)} className={tag}>{tag}</button>
             ))}
           </div>
         </section>
