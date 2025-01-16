@@ -47,6 +47,7 @@ function App() {
   }
 
   function handleReload() {
+    document.getElementById('searchTitle').value = '';
     setFilteredSearch(courses);
   }
 
