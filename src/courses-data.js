@@ -413,175 +413,175 @@ export const COURSES = [
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['shopware']
       },
       {
         title: "LEARNING PATH: jQuery: Master Web Development with jQuery 3",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['js', 'jquery']
       },
       {
         title: "Build Responsive Website Using HTML5, CSS3, JS And Bootstrap",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['html', 'css', 'js', 'bootstrap']
       },
       {
         title: "Modernes JavaScript (ES6): jQuery, node.js, und viel Praxis!",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['js', 'jquery', 'nodejs']
       },
       {
         title: "Object-oriented Programming in JavaScript",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['js']
       },
       {
         title: "Extensionentwicklung mit Typo3 CMS V8.7.x",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['typo3']
       },
       {
         title: "French for Middle Schoolers",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['french', 'language']
       },
       {
         title: "Learn to speak : daily conversation in french",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['french', 'language']
       },
       {
         title: "Improve your French Now",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['french', 'language']
       },
       {
         title: "Objektorientierte Entwicklung mit PHP 7",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['php']
       },
       {
         title: "The Complete Google Forms Course - Sending & Analyzing Forms",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['google']
       },
       {
         title: "Docker & Kubernetes: The Practical Guide [2025 Edition]",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['docker', 'kubernetes']
       },
       {
         title: "React & TypeScript - The Practical Guide",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['react', 'typescript', 'js']
       },
       {
         title: "Introduction to Swiss German",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['swiss', 'language']
       },
       {
         title: "Quickstart AngularJS 1.0 [First Version Of Angular]",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['js', 'angular']
       },
       {
         title: "AngularJS 1.0 Masterclass - Deep Dive & Understand AngularJS",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['js', 'angular']
       },
       {
         title: "Shopware Developer Training Basic",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['shopware']
       },
       {
         title: "Praktische Tipps für die Gehaltserhöhung",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['career']
       },
       {
         title: "Ultimate AWS Certified Developer Associate 2025 DVA-C02",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['aws']
       },
       {
         title: "The AWS Course - Updated 2023",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['aws']
       },
       {
         title: "French Foundation Course with Pronunciation Techniques",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['french', 'language']
       },
       {
         title: "French for Middle Schoolers - Part 3",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['french', 'language']
       },
       {
         title: "American English for French Speakers",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['english', 'language']
       },
       {
         title: "The Complete PHP Bootcamp Course With Video Sharing Project",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['php']
       },
       {
         title: "Secure Your VueJs Applications With Auth0",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['secure', 'vue', 'js']
       }
     ]
   },
@@ -593,14 +593,14 @@ export const COURSES = [
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['vue', 'js']
       },
       {
         title: "LEARNING PATH: jQuery: Master Web Development",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['js', 'jquery']
       },
     ]
   },
@@ -612,70 +612,70 @@ export const COURSES = [
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['js', 'angular']
       },
       {
         title: "Learn React JS and Web API by creating a Full Stack Web App",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['react', 'js']
       },
       {
         title: "Junior to Senior Developer",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['career']
       },
       {
         title: "iOS12 Bootcamp from Beginner to Professional iOS Developer",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['ios']
       },
       {
         title: "Magento 2.4 für Linux-Admins – Perfekte Server-Installation",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['magento', 'linux']
       },
       {
         title: "Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['css']
       },
       {
         title: "CashTube Masterclass - Wie du mit Youtube Geld verdienst",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['youtube']
       },
       {
         title: "Youtube Kanal ohne eigene Videos aufbauen und Geld verdienen",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['youtube']
       },
       {
         title: "MAGENTO 2 scratch 2022 The First Step to Open Your ecommerce",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['magento']
       },
       {
         title: "Nuxt.js 2 - Vue.js on Steroids",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['nuxt', 'vue', 'js']
       },
       {
         title: "Learn Ubuntu in 7 days",
@@ -696,42 +696,42 @@ export const COURSES = [
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['google']
       },
       {
         title: "The Complete jQuery Course: Build Real World Projects!",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['jquery', 'js']
       },
       {
         title: "Build Interactive Apps using VueJS, Vuex and VueRouter",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['vue', 'js']
       },
       {
         title: "Linux Fundamentals for IT Professionals using Ubuntu 20x",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['linux', 'ubuntu']
       },
       {
         title: "C Programming 2019",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['c']
       },
       {
         title: "Agile Scrum Advanced Software Development+Program Management",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['agile', 'scrum']
       },
     ]
   },
@@ -743,14 +743,14 @@ export const COURSES = [
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['magic']
       },
       {
         title: "Die Online-Zauberschule | Kartentricks lernen vom Profi!",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['magic']
       },
     ]
   },
@@ -762,21 +762,21 @@ export const COURSES = [
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['css']
       },
       {
         title: "Sales Training: Practical Sales Techniques",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['sales', 'career']
       },
       {
         title: "Ace the Pitch!",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['sales', 'career']
       },
     ]
   },
@@ -788,42 +788,42 @@ export const COURSES = [
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['career']
       },
       {
         title: "Meisterliche Kommunikation und Rhetorik -Die Charisma-Formel",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['communication', 'career']
       },
       {
         title: "Google Analytics 4: Google Analytics Anfänger Guide",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['google']
       },
       {
         title: "Grundlagen der Kommunikation für Führungskräfte Meisterkurs",
         description: "",
         author: "",
         url: "",
-        tags: []
+        tags: ['communication', 'career']
       },
       {
         title: "Komplette Kommunikation Masterclass: 100 beste Tipps!",
         description: "",
         author: "",
         url: "",
-        tags: ['communication']
+        tags: ['communication', 'career']
       },
       {
         title: "Die Gewinner-Formel - Erreiche deine Ziele mit NLP",
         description: "",
         author: "",
         url: "",
-        tags: ['nlp']
+        tags: ['nlp', 'career']
       },
     ]
   },

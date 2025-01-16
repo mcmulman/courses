@@ -75,11 +75,10 @@ function App() {
   return (
     <>
       <header>
-        <h1>Available Courses</h1>
+        <h1>Courses: &nbsp;{selectionLength} / {coursesLength}</h1>
       </header>
       <main>
         <section>
-          <h1>{selectionLength} / {coursesLength}</h1>
           <div id="searchForm">
             <input id="searchTitle" name="searchTitle" placeholder='Suchen' onChange={handleSearch}/>
             <button id="searchReset" onClick={handleReload}>⟳</button>
