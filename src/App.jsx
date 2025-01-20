@@ -40,6 +40,8 @@ function App() {
     setCourses(_courses);
     setCoursesLength(_courses.length);
     setFilteredSearch(_courses);
+
+    _tags = _tags.sort((a, b) => a.localeCompare(b));
     setTags(_tags);
   }, []);
 
